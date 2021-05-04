@@ -1,0 +1,100 @@
+@media (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+  nav menu li:not(:last-child) a {
+    padding: 30px 20px 15px;
+  }
+  .banner-wrapper {
+    display: block;
+    text-align: center;
+  }
+  .info {
+    width: 100%;
+  }
+  .info div {
+    display: block;
+  }
+  .info button {
+    margin: 0 auto;
+  }
+  .iphone {
+    width: 100%;
+  }
+  .servies-wrapper {
+    flex-wrap: wrap;
+  }
+  .servies-item {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .cart-wrapper {
+    flex-wrap: wrap;
+  }
+  .cart h2 {
+    justify-content: center;
+  }
+  .cart-wrapper .left-block,
+  .right-block {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 600px;
+  }
+
+  .servies-item {
+    width: 100%;
+    margin: 0 auto;
+  }
+  label {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  .check:checked ~ .sub-menu {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 420px;
+  }
+  .info h2 {
+    font-size: 30px;
+  }
+  .info div {
+    font-size: 20px;
+  }
+  .iphone {
+    display: none;
+  }
+  .left-block img {
+    width: 200px;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    width: 320px;
+  }
+  .cart h2 {
+    font-size: 30px;
+  }
+  .right-block h3 {
+    font-size: 20px;
+  }
+  .right-block p {
+    font-size: 12px;
+  }
+  .copyright {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
